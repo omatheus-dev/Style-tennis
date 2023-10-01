@@ -114,7 +114,7 @@ button:hover {
     display: block;
 }
 
-@media  (max-width: 480px) {
+@media  (max-width: 670px) {
     .container {
         width: 80%;
     }
@@ -138,6 +138,10 @@ button:hover {
 
     footer p {
         font-size: 0.7em;
+    }
+
+    .item-central {
+        margin: 0;
     }
 }
 
