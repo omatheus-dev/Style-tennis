@@ -114,7 +114,32 @@ button:hover {
     display: block;
 }
 
+@media  (max-width: 480px) {
+    .container {
+        width: 80%;
+    }
 
+    h1{
+        font-size: 1.5em;
+    }
+
+    #carousel-imagens img{
+        height: 180px;
+    }
+
+    .lista-produtos {
+        display: block;
+        width: 100%;
+    }
+
+    .lista-produtos li {
+        max-width: 100%;
+    }
+
+    footer p {
+        font-size: 0.7em;
+    }
+}
 
 
 
